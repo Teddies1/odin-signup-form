@@ -1,0 +1,102 @@
+html { 
+    /* min-width: 100vw; 
+    min-height: 100vh;  */
+} 
+
+body{
+    font-family: Norse Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+    padding: 0;
+    margin: 0;
+    
+}
+
+.main-container {
+    display: flex;
+    align-items: stretch;
+    flex-basis: 30% 70%;
+}
+
+img {
+    width: 100%;
+    height: 100vh;
+}
+
+.image-container {
+    width: 30%;
+    height: 100vh;
+    background-color: red;
+}
+
+.content-container { 
+    width: 70%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.content-top {
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.footer {
+    background-color: lightgray;
+    flex-grow: 1;
+}
+
+.button-container {
+    display: flex;
+    margin: 32px;
+    align-items: flex-start;
+    gap: 48px;
+    flex-direction: column;
+}
+.already-account {
+    font-size: 24px;
+}
+.login-section {
+    box-shadow: 5px 5px 2px 1px gray;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+
+.login-header {
+    font-size: 48px;
+    margin: 48px;
+}
+.text-content{
+    font-size: 48px;
+    padding: 48px;
+} 
+
+form {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    background-color: #596D48;
+    color: #e5e7eb;
+    padding: 16px 48px;
+    margin-top: 10px;
+    border-radius: 8px;
+    align-self: flex-start;
+    margin-top: 16px;
+}
